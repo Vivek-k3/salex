@@ -22,3 +22,18 @@ body {
     width: min(98%, 1550px);
     margin-inline: auto;
 }
+
+input,
+textarea,
+select {
+    display: block;
+    padding: 2px 10px;
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 4px;
+}
+
+input:is(:hover, :focus) {
+    outline: none;
+}
