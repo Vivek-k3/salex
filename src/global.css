@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+
+    --roboto: "Roboto Mono", monospace;
+}
+
+body {
+    font-family: var(--roboto);
+    width: min(98%, 1550px);
+    margin-inline: auto;
+}
